@@ -1,0 +1,3 @@
+due to the fact that according to the instructions the task was supposed to take me about an hour, that's how much I reserved for myself. On the other hand, it turned out that I couldn't work on my photoshop, so I was forced to use photopea, which is very difficult to handle pixel perfect tasks. Below I attach the address of the repository on github that I set up for this task. I will keep making commits with updates to the project.
+
+https://github.com/Pan-be/pixel-perfect

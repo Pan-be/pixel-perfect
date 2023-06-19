@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c0872e8fdd.js" crossorigin="anonymous"></script>
+    <title>Los Angeles Mountains</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <head>
+        <div class="hero-container"><img src="./img/Image.png" alt="picutre of Los Angeles Mountains"></div>
+        <nav class="menu">
+            <div class="menu-container collapsible">
+                <div class="logo-container"><img src="img/Logo.png" alt="logo"></div>
+                <i class="menu-icon fa-solid fa-bars"></i>
+                <ul class="menu-items collapsible-content">
+                    <li class="nav-item"><a href="#">01. History</a></li>
+                    <li class="menu-last-el nav-item"><a href="#">02. Team</a></li>
+                </ul>
+            </div>
+        </nav>
+    </head>
+    <script>
+        const collapsible = document.querySelectorAll('.collapsible')
+        collapsible.forEach(item => {
+            item.addEventListener('click', function () { this.classList.toggle('collapsible--expanded') })
+        })
+    </script>
+</body>
+
+</html>
